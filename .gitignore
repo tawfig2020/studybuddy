@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+
+# Environment / secrets
+.env
+*.local
+
+# Local databases
+*.db
+*.sqlite3
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+test_admin_out.txt
